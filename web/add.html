@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="pt">
+    <head>
+        <title>Add Contact</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="css/bootstrap-grid.rtl.min.css" type="text/css"/>
+    </head>
+    <body>  
+        <div class="text-center container">
+            <h1 class="display-4">MY AGENDA</h1>
+            <p class="lead">ADD CONTACT</p>
+        </div>
+        
+        <div class="container my-3">
+            
+            <form name ="contact-data" class="col-6 offset-lg-3" onsubmit="return check()" action="save">
+                
+                <input type="text" class="form-control my-2" name="_name" placeholder="Insert Name (required)">
+                <input type="text" class="form-control my-2" name="number" placeholder="Insert Number (required)">
+                <input type="text" class="form-control my-2" name="email" placeholder="Insert Email">
+                <button type= "submit" class="btn btn-primary mb-2 my-3"> Save contact </button>
+            </form>
+        </div>
+        
+        <script src="js/script.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
